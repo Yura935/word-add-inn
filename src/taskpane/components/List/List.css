@@ -1,0 +1,46 @@
+.list-box {
+  margin-top: 10px;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    .list-item {
+      width: 100%;
+      padding: 10px 0;
+      cursor: pointer;
+      border-top: 1px solid lightgray;
+
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding-left: 10px;
+        margin-bottom: 2px;
+
+        h5 {
+          margin: 0;
+        }
+      }
+      .error {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 12px;
+        font-style: italic;
+      }
+
+      &:hover {
+        background-color: #dbdada;
+      }
+
+      &.selected {
+        background-color: #cbcbcb;
+      }
+    }
+  }
+  .empty {
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+}

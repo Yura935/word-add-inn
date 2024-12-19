@@ -1,6 +1,6 @@
 # Word Add-in Taskpane React
 
-This project is a Word Add-in built using React and Fluent UI. It demonstrates how to integrate React components with Office Add-ins to extend Word's functionality.
+This project is a Word Add-in built using React and Fluent UI. It demonstrates integrating React components with Office Add-ins to extend Word's functionality.
 
 ## Table of Contents
 
